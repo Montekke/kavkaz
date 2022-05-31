@@ -1,0 +1,63 @@
+<div class="sale-block">
+
+
+	<div class="sale-block__action">
+		<picture>
+			<source srcset="img/action.webp" type="image/webp">
+			<img src="img/action.png" alt="">
+		</picture>
+	</div>
+	<div class="sale-block__top top-sales">
+		<div class="top-sales__today">
+			Акция до
+		</div>
+		<div class="top-sales__time">
+			<div class="top-sales__number sales-number">
+				<?php
+						// Вывод даты на русском
+						$monthes = array(
+								1 => 'января', 2 => 'февраля', 3 => 'марта', 4 => 'апреля',
+								5 => 'мая', 6 => 'июня', 7 => 'июля', 8 => 'августа',
+								9 => 'сентября', 10 => 'октября', 11 => 'ноября', 12 => 'декабря'
+						);
+						echo(date('d ') + 2);
+						?>
+			</div>
+			<div class="top-sales__mounth sales-number">
+				<?php
+				// Вывод даты на русском
+				$monthes = array(
+						1 => 'января', 2 => 'февраля', 3 => 'марта', 4 => 'апреля',
+						5 => 'мая', 6 => 'июня', 7 => 'июля', 8 => 'августа',
+						9 => 'сентября', 10 => 'октября', 11 => 'ноября', 12 => 'декабря'
+				);
+				echo($monthes[(date('n'))]);
+				?> !
+			</div>
+		</div>
+		<div class="top-sales__text">
+			На все экскурсионные
+			программы <strong>скидка 15%</strong>
+		</div>
+		<div class="top-sales__price">
+			<div class="top-sales__act">59 900 р.</div>
+			<span class="top-sales__noact">68900</span>
+		</div>
+
+	</div>
+
+	<div class="sale-block__bottom bottom-sales">
+		<div class="bottom-sales__img">
+			<picture>
+				<source srcset="img/mir.webp" type="image/webp">
+				<img width="106px" src="img/mir.png" alt="">
+			</picture>
+		</div>
+		<div class="bottom-sales__title">
+			<strong>20% кешбэк</strong>
+			по карте мир
+		</div>
+
+
+	</div>
+</div>

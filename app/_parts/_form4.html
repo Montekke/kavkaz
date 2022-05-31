@@ -1,0 +1,21 @@
+<form class="needs-validation form" novalidate="" method="POST" action="thank.php" enctype="multipart/form-data"
+	name="addcom4" id="addcom4">
+	<div class="form__container">
+		<div class="form-block form__in">
+			<input type="hidden" name="from" value="Перезвоните мне. Консультация">
+			<div class="form-block__input">
+				<div class="err" id="cerror4"></div>
+				<input type="tel" class="form-control" name="phone" placeholder="Введите ваш телефон" required="">
+			</div>
+			<button onclick="doLoad4(document.getElementById('addcom4'))" class="main-btn">
+				ПОЛУЧИТЬ ПРЕЗЕНТАЦИЮ ТУРА<br>
+				+ КОНСУЛЬТАЦИЮ + СКИДКУ 15%
+			</button>
+			<div class="form-check">
+				<input type="checkbox" class="check" checked="" id="check4">
+				<label class="form-check-label" for="check4">Я принимаю условия <a data-bs-toggle="modal"
+						data-bs-target="#security-politics">политики конфеденциальности</a></label>
+			</div>
+		</div>
+	</div>
+</form>

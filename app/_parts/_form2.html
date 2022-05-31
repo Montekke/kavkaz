@@ -1,0 +1,21 @@
+<form class="needs-validation form" novalidate="" method="POST" action="#" enctype="multipart/form-data" name="addcom2"
+	id="addcom2" onsubmit="return false">
+	<div class="form__container">
+		<div class="form-block form__in">
+			<input type="hidden" name="from" value="Перезвоните мне. Консультация">
+			<div class="form-block__input">
+				<div class="err" id="cerror2"></div>
+				<input type="tel" class="form-control" name="phone" placeholder="Введите ваш телефон" required="">
+			</div>
+			<button onclick="doLoad2(document.getElementById('addcom2'))" class="main-btn">
+				УЗНАТЬ О НАЛИЧИИ<br>
+				СВОБОДНЫХ МЕСТ
+			</button>
+			<div class="form-check">
+				<input type="checkbox" class="check" checked="" id="check2">
+				<label class="form-check-label" for="check2">Я принимаю условия <a data-bs-toggle="modal"
+						data-bs-target="#security-politics">политики конфеденциальности</a></label>
+			</div>
+		</div>
+	</div>
+</form>
